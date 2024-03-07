@@ -12,9 +12,11 @@ There are two similar libraries in `libs` directory:
 Both libraries contain the same keywords
 
 `Verify Table  <filepath>  <locator>  [header_appendix=//th]  [row_appendix=//tr]  [cell_appendix=//td]` 
+
 Does the actual verification of table.
 
 `Verify Table Init  <filepath>  <locator>  [header_appendix=//th]  [row_appendix=//tr]  [cell_appendix=//td]`
+
 Is used to initialize the verification data. Data is written to file that is appended with a `_template` postfix.
 This file can be used as a basis for verification file. In many cases file can be used as is.
 
